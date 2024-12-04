@@ -1,0 +1,109 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+
+  }
+  
+  button.toggle-btn {
+    background-color: #001227;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button.toggle-btn:hover {
+    background-color: #dd047b;
+  }
+  
+  .hidden-content {
+    display: none;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    text-align: justify;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  /* Tema padrão: claro */
+:root {
+    --bg-color: #f9f9f9;
+    --text-color: #333;
+    --header-bg: #007BFF;
+    --footer-bg: #007BFF;
+    --button-bg: #007BFF;
+    --button-hover: #0056b3;
+  }
+  
+  body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+  }
+  
+  header, footer {
+    background-color: var(--header-bg);
+    color: white;
+  }
+  
+  button.toggle-btn {
+    background-color: var(--button-bg);
+  }
+  
+  button.toggle-btn:hover {
+    background-color: var(--button-hover);
+  }
+  
+  /* Modo escuro */
+  body.dark {
+    --bg-color: #333;
+    --text-color: #0a0505;
+    --header-bg: #222;
+    --footer-bg: #222;
+    --button-bg: #444;
+    --button-hover: #555;
+  }
+  
+  #theme-switcher {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    color: rgb(19, 8, 8);
+    cursor: pointer;
+  }
+  
